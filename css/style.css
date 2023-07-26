@@ -8,12 +8,42 @@
 #title{
 	display: inline;
 	font-size:30px;
+	word-spacing: 2px;
+	text-indent: 2px;
+	letter-spacing: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
-#payoff{
+#payoff {
 	width: 70%;
+	line-height: 15px;
+	text-transform: uppercase;
+	font-family: 'Notable', sans-serif;
+	color: #87CEEB; /* if browsers don't support CMYK */
+    color: cmyk(63%, 11%, 0%, 8%);
 }
-
+nav ul li{
+	margin: 5px;
+	padding:5px;
+	border: 1px;
+	border-color:#aaaa55;
+	border-style:double;
+	border-width: 1px;
+	background-color: #aaaa55;
+	color: white;
+	border-radius: 5px;
+	
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #007bff;
+}
+article a:hover{
+	color: #ff4500;
+    text-decoration: none;
+}
 #footer{
 	width:70%;
 	float: left;
@@ -33,6 +63,7 @@
 	position: fixed;
 	right: 0%;
 	bottom: 0%;
+	z-index:9999;
 }
 
 #p-cookie{
@@ -783,10 +814,7 @@ nav > ul > li > a
 		width:50%;
 	}
 	
-	
-	
-	
-	
+
 	#price-side{
 		background-color: pink;
 		display:grid;
