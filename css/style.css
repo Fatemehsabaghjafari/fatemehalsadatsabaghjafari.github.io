@@ -1,26 +1,22 @@
 
-#logo
-{ 
+#logo{ 
   display: block;
   max-width: 50px;
   height:50px; 
 }
 
-#title
-{
+#title{
 	display: inline;
 	background-color: #;
 	font-size:30px;
 }
 
-#payoff
-{
+#payoff{
 	background-color: #;
 	width: 70%;
 }
 
-#footer
-{
+#footer{
 	width:70%;
 	float: left;
 	background-color: #f08080;
@@ -29,42 +25,37 @@
 	clear: both;
 }
 
-#cookies
-{	
+#cookies{	
 	width: 30%;
 	background-color: #ffaa00;
 	float:right;
     order: 5;
-	opacity:50%;
+	opacity:0.5;
 	height: 4em;
 	position: fixed;
 	right: 0%;
 	bottom: 0%;
 }
 
-#p-cookie
-{
+#p-cookie{
 		font-size:15px;
 		color:#ffffff;
 }	
 	
-#section-table
-{
+#section-table{
 	overflow-x:auto;
 }
 
-#price-table
-{ 
+#price-table{ 
 	border:1px solid black;
 	border-collapse: collapse;
 	width:100%;
-  order:3;
-  margin-right:2em;
-  
+	order:3;
+	margin-right:2em; 
 }
 
-th,td
-{
+th,
+td{
 	text-align:left;
 	color:black;
 	border:1px solid black;
@@ -72,26 +63,23 @@ th,td
 	padding:10px;
 }
 
-tbody tr:nth-child(even)
-{
+tbody tr:nth-child(even){
 background-color:#d1bea8;
 }
-tbody tr:hover
-{
+
+tbody tr:hover{
 background-color:#db7093;
 }
+
 td
 {
  height:30px;
 }
 
 #form{
-	background-color:#ba55d3;
-	
+	background-color:#ba55d3;	
 }
-#feildset{
-	
-}
+
 
 
 
@@ -112,7 +100,7 @@ td
 	align-self: center;
 }
 
-.bar {
+.bar{
 	display: block;
 	width: 25px;
 	height: 3px;
@@ -374,6 +362,7 @@ td
 }
 #article-p
 {
+	overflow: auto;
 	width:50%;
 	order:3;
 }
@@ -595,7 +584,7 @@ nav > ul > li > a
 
 
 
-	
+/* PC */
 @media screen and (min-width: 1280px)
 {
 	
@@ -662,21 +651,29 @@ nav > ul > li > a
 	{
 		font-size:22px;
 		order: 2;
-		height: 60em;
-		width:15%;
-	float: left;
-	background-color:#f49ac2;
+		height: 30em;
+		width:22%;
+		float: left;
+		background-color:#f49ac2;
+		position: absolute;
+		right: 0;
+		overflow: hidden;
+		padding: 1rem;
 	
 	}
+	.side-list{
+	display: inline;}
+	
 	#footer
-{
+	{
 	float: left;
 	background-color: #f08080;
 	width: 70%;
 	order:3;
 	height: 5em;
 	clear: both;
-}
+	}
+	
 #cookies
 {
 	width: 30%;
