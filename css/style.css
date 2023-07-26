@@ -7,12 +7,11 @@
 
 #title{
 	display: inline;
-	background-color: #;
 	font-size:30px;
 }
 
 #payoff{
-	background-color: #;
+
 	width: 70%;
 }
 
@@ -71,8 +70,7 @@ tbody tr:hover{
 background-color:#db7093;
 }
 
-td
-{
+td{
  height:30px;
 }
 
