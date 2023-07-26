@@ -142,8 +142,7 @@ td{
 		display: block;
 	}
 	
-.header{
-		
+.header{		
 	display: grid;
 	grid-template-columns:70% 30%;
 	grid-template-rows:3;
@@ -152,8 +151,7 @@ td{
 	
 	
 #title{
-	background-color: #;
-	width: 70%;
+	width:70%;
 	grid-column-start:1;
 }
 	
@@ -200,10 +198,9 @@ td{
 	.side
 	{
 		order: 1;
-		height: em ;
 		width: 100%;
 		float: left;
-	background-color: #f49ac2;
+	    background-color: #f49ac2;
 	}
 	
 	#section
@@ -225,41 +222,36 @@ td{
 		grid-template-rows: repeat(4 , 1fr);
 	}
 	#product1{
-		
-		grid-column-start:;
+
 		grid-row-start:4;
-		height:em;
 	}
 	#product2{
 		
-		height:em;
-		grid-row-start:3;
-		grid-column-start:;
-		
+		grid-row-start:3;		
 		
 	}
 	#product3{
-		grid-column-start:;
+
 		grid-row-start:2;
-		height:em;
+	
 	}
 	#product4{
 		display:none;
 		
-		grid-column-start:;
+	
 		grid-row-start:2;
-		height:em;
+	
 	}
 	#product5{
 		grid-row-start:1;
-		grid-column-start:;
-		height:em;
+	
+	
 	}
 	#product6{
 		grid-column-start:1;
 		display:none;
 		grid-row-start:3;
-		height:em;
+	
 	}
 	
 	
@@ -451,26 +443,26 @@ nav > ul > li > a
 		font-size:10px;
 		grid-column-start:1;
 		grid-row-start:2;
-		height:em;
+		
 	}
 	#product4{
 		font-size:10px;
 		display: none;
 		grid-column-start:3;
 		grid-row-start:2;
-		height:em;
+		
 	}
 	#product5{
 		font-size:10px;
 		grid-row-start:2;
 		grid-column-start:2;
-		height:em;
+		
 	}
 	#product6{
 		font-size:10px;
 		grid-column-start:1;
 		grid-row-start:3;
-		height:em;
+		
 	}
 	#flex-side{
 		background-color: pink;
@@ -486,7 +478,6 @@ nav > ul > li > a
 	}
 	#product-img1{
 		grid-column-start:1;
-		grid-column-end:;
 		width:50%;
 	}
 	#product-img2{
@@ -522,20 +513,21 @@ nav > ul > li > a
 		display: flex;
 		width:100%;
 	}
-	#form{
-		
-	}
+	
 	
 	#contact-side{
 		float: left;
 		width:50%;
 	}
-		#contact-img1{
+	
+	#contact-img1{
 		width:50%;
 	}
+	
 	#contact-img2{
 		width:50%;
 	}
+	
 	#contact-img3{
 		width:50%;
 	}
@@ -692,11 +684,11 @@ nav > ul > li > a
 		grid-column-start:2;
 		grid-row-start:1;
 		grid-row-end:2;
-		height:em;
+		
 	}
 	#product2{
 		font-size:15px;
-		height:em;
+		
 		grid-row-start:1;
 		grid-column-start:1;
 		grid-column-end:2;
@@ -706,34 +698,32 @@ nav > ul > li > a
 		font-size:15px;
 		grid-column-start:3;
 		grid-row-start:1;
-		height:em;
+	
 	}
 	#product4{
 		font-size:15px;
 		grid-column-start:3;
 		grid-row-start:2;
-		height:em;
+		
 	}
 	#product5{
 		font-size:15px;
 		grid-row-start:2;
 		grid-column-start:1;
-		height:em;
+		
 	}
 	#product6{
 		font-size:15px;
 		grid-column-start:2;
 		grid-column-end:4;
 		grid-row-start:3;
-		height:em;
+	
 	}
 	#product-side{
 		font-size:15px;
 		display:grid;
 		grid-template-columns:50% 30% 20%;
-		width:100%;
-		
-		
+		width:100%;		
 	}
 	
 	
