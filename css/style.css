@@ -176,7 +176,7 @@ td{
 .header{		
 	display: grid;
 	grid-template-columns:70% 30%;
-	grid-template-rows:3;
+	grid-template-rows:70fr 30fr;
 	width: 100%;
 }
 	
@@ -460,15 +460,11 @@ nav > ul > li > a
 		font-size:10px;
 		grid-column-start:1;
 		grid-row-start:1;
-		height:em;
 	}
 	#product2{
 		font-size:10px;
-		height:em;
 		grid-row-start:1;
 		grid-column-start:2;
-		
-		
 	}
 	#product3{
 		font-size:10px;
