@@ -109,6 +109,11 @@ td:first-child {
   color: black;
 }
 
+td::first-letter {
+  font-size: 1.2em; 
+  color: #ff0; 
+}
+
 #form{
 	background-color:#ba55d3;	
 }
