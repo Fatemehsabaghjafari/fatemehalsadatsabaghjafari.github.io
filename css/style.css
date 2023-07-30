@@ -242,6 +242,8 @@ td::first-letter {
 	}
 	.side
 	{
+		flex-grow: 1;
+		flex-shrink: 1;
 		order: 1;
 		width: 100%;
 		float: left;
@@ -442,6 +444,8 @@ nav > ul > li > a
 	}
 	.side
 	{
+		flex-grow: 1;
+		flex-shrink: 1;
 		order: 1;
 		height: 20em ;
 		width: 100%;
@@ -676,6 +680,8 @@ nav > ul > li > a
 	}
 	.side
 	{
+		flex-grow: 1;
+		flex-shrink: 1;
 		font-size:22px;
 		order: 2;
 		height: 30em;
