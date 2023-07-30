@@ -35,6 +35,15 @@ nav ul li{
 	border-radius: 5px;
 	
 }
+
+nav > ul {
+  background-color: #007bff;
+}
+
+nav ul li + li {
+  color: #ff4500;
+}
+
 nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
