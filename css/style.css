@@ -104,15 +104,14 @@ td{
  height:30px;
 }
 
+td:first-child {
+  background-color: #ff0;
+  color: black;
+}
+
 #form{
 	background-color:#ba55d3;	
 }
-
-
-
-
-
-
 
 /* Hamburger Menu Styles */
 #toggle-menu {
