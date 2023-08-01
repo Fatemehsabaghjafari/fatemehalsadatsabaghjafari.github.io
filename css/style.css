@@ -376,7 +376,47 @@ display: none;
 		
 	}
 	
+	.main-contact{
 	
+		width:100%;
+}
+
+.form{
+	width:70%;
+}
+
+.fieldset{
+	display: grid;
+	grid-template-rows: auto;
+}
+
+.contact-name{
+	margin: 20px;
+	grid-row:1;
+}
+
+.contact-email{
+	margin: 20px;
+	grid-row:2;
+}
+
+.contact-message{
+	margin: 20px;
+	grid-row:3;
+}
+
+.contact-submit{
+	margin: 20px;
+	grid-row:4;
+}
+
+.contact-txtarea{
+	
+	margin-left: 10px;
+}
+
+
+
 	#contact-side{
 		background-color:#f49ac2;
 	}
@@ -400,7 +440,6 @@ display: none;
 
 @media screen and (min-width: 481px) and (max-width: 1279px)
 {
-	
 .article
 {
  display:flex;
@@ -580,16 +619,50 @@ overflow:auto;
 		width:10%;
 	}
 	
-	#main-contact{
+	.main-contact{
 		display: flex;
 		width:100%;
-	}
+}
+
+.form{
+	width:70%;
+}
+
+.fieldset{
+	display: grid;
+	grid-template-rows: auto;
+}
+
+.contact-name{
+	margin: 20px;
+	grid-row:1;
+}
+
+.contact-email{
+	margin: 20px;
+	grid-row:2;
+}
+
+.contact-message{
+	margin: 20px;
+	grid-row:3;
+}
+
+.contact-submit{
+	margin: 20px;
+	grid-row:4;
+}
+
+.contact-txtarea{
 	
-	
-	#contact-side{
+	margin-left: 10px;
+}
+
+
+.contact-side{
 		float: left;
-		width:50%;
-	}
+		width:30%;
+}
 	
 	#contact-img1{
 		width:50%;
@@ -603,13 +676,7 @@ overflow:auto;
 		width:50%;
 	}
 	
-	
-	
-
-
-
-
-	#price-side{
+#price-side{
 		background-color: pink;
 		display:grid;
 		grid-template-rows:1fr  ;
@@ -721,15 +788,14 @@ overflow:auto;
 	.side-list{
 	display: inline;}
 	
-	#footer
-	{
+#footer{
 	float: left;
 	background-color: #f08080;
 	width: 70%;
 	order:3;
 	height: 5em;
 	clear: both;
-	}
+}
 	
 #cookies
 {
@@ -737,8 +803,7 @@ overflow:auto;
 	background-color: orange;
 	font-size:20px;
 	float:right;
-    order: 4;
-	
+    order: 4;	
 	height: 4em;
 }
 
@@ -845,25 +910,60 @@ overflow:auto;
 	
 	
 	
-	#main-contact{
+.main-contact{
 		display: flex;
 		width:100%;
-	}
-	#form{
-		
-	}
-	#contact-side{
+}
+
+.form{
+	width:70%;
+}
+
+.fieldset{
+	display: grid;
+	grid-template-rows: auto;
+}
+
+.contact-name{
+	margin: 20px;
+	grid-row:1;
+}
+
+.contact-email{
+	margin: 20px;
+	grid-row:2;
+}
+
+.contact-message{
+	margin: 20px;
+	grid-row:3;
+}
+
+.contact-submit{
+	margin: 20px;
+	grid-row:4;
+}
+
+.contact-txtarea{
+	
+	margin-left: 10px;
+}
+
+
+.contact-side{
 		float: left;
+		width:30%;
+}
+	
+#contact-img1{
 		width:50%;
-	}
-		#contact-img1{
-		width:50%;
-	}
+}
+
 	#contact-img2{
-		width:50%;
+		width:30%;
 	}
 	#contact-img3{
-		width:50%;
+		width:30%;
 	}
 	
 
