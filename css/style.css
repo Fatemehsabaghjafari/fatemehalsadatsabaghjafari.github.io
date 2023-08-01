@@ -155,6 +155,10 @@ td::first-letter {
 /*  Mobile */
 @media screen and (max-width: 480px)
 {
+.price-article{
+	display: none;
+	}
+	
 	#logo {
     display: none;
   }
@@ -819,15 +823,22 @@ overflow:auto;
 		grid-column-start:3;
 		width:90%;
 	}
-	.main-pricing{
+	
+.section-pricing{
 		display: flex;
 		width: 100%;
 	}
+	
+.price-article{
+	margin:10px;
+	border:2px solid #000000;
+	padding:5px;
+}
 	#section-table{
 		width:70%;
 	}
 	#price-side{
-		float: left;
+		float: right;
 		width:30%;
 	}
 	
