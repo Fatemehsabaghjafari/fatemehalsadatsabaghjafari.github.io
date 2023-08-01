@@ -250,6 +250,11 @@ td::first-letter {
 		float: left;
 	    background-color: #f49ac2;
 	}
+	.article
+{
+ 
+  background-color: white;
+}
 	
 	#section
 	{
@@ -396,6 +401,7 @@ display: none;
 {
  display:flex;
   justify-content: space-around;
+  background-color: white;
 }
 #article-header{
 	order:1;
@@ -469,8 +475,7 @@ nav > ul > li > a
 	{
 	 
 	 background-color: #ffe4e1;
-	 order: 3;
-	 
+	 order: 3; 
 	}
 .grid-container{
 		font-family: 'Quicksands' , sans-serif;
@@ -638,11 +643,13 @@ overflow:auto;
 	
 	.article
 	{
+    background-color:white;		
 	display:flex;
 	justify-content: space-around;
+	width: 70%;
 	}
-	#article-p
-	{
+	
+	#article-p{
 	width:50%;
 	}
 	#article-img
@@ -656,6 +663,7 @@ overflow:auto;
 	
 	background-color:#ff1493;
 	}
+	
 	#nav-ul
 	{
 	padding-top:1em;
@@ -671,15 +679,12 @@ overflow:auto;
 	color:white;
 	}
 
-	#section
-	{
-	 
+#section{	 
 	background-color: #ffe4e1 ;
-	width: 85%;
-	float: left;
-	
-	}
-	#pc-video {
+	float: left;	
+}
+
+#pc-video {
 		width: 100%;
 		height: 50em;
 		
