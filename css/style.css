@@ -254,11 +254,10 @@ td::first-letter {
 		float: left;
 	    background-color: #f49ac2;
 	}
-	.article
-{
- 
-  background-color: white;
+.article{
+  background-color: #00ffff;
 }
+
 	
 	#section
 	{
@@ -421,15 +420,17 @@ display: none;
 		background-color:#f49ac2;
 	}
 	
-	#contact-img1{
+#contact-img1{
 		width:50%;
-	}
-	#contact-img2{
+}
+	
+#contact-img2{
 		width:50%;
-	}
-	#contact-img3{
+}
+
+#contact-img3{
 		width:50%;
-	}
+}
 	
 }
 
@@ -440,38 +441,37 @@ display: none;
 
 @media screen and (min-width: 481px) and (max-width: 1279px)
 {
-.article
-{
+.article{
  display:flex;
   justify-content: space-around;
-  background-color: white;
+  background-color: #00ffff;
+  margin-bottom: 11px;
 }
-#article-header{
-	order:1;
-}
-#article-p
-{
+
+.article-p{
 	overflow: auto;
 	width:50%;
 	order:3;
+	padding-left: 10px;
 }
-#article-img
-{
-	order:2;
-	float:left;
-	
-	
+
+.article-img{
+	order:1;
+	float:left;	
+	margin: 5px;
 }
+
+
+.single-line {
+    white-space: nowrap;
+}
+
 #article-footer{
 	float:right;
-	
 	clear:both;
 }
 
-
-
-	#navbar
-{
+#navbar{
 	width:100%;
 	
 	background-color:#ff1493;
@@ -714,16 +714,22 @@ overflow:auto;
 	
 	.article
 	{
-    background-color:white;		
+    background-color:#00ffff;		
 	display:flex;
 	justify-content: space-around;
 	width: 70%;
-	}
+	margin-bottom: 10px;
+}
+
+.single-line {
+    white-space: nowrap;
+}
 	
-	#article-p{
+	
+	.article-p{
 	width:50%;
 	}
-	#article-img
+	.article-img
 	{
 	float:right;
 	}
