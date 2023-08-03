@@ -254,8 +254,19 @@ td::first-letter {
 		float: left;
 	    background-color: #f49ac2;
 	}
-.article{
+.article {
   background-color: #00ffff;
+  margin-bottom: 11px;
+  overflow: auto; 
+}
+
+.article-img {
+  float: left;
+  margin: 5px;
+}
+
+.single-line {
+  white-space: nowrap;
 }
 
 	
@@ -441,30 +452,22 @@ display: none;
 
 @media screen and (min-width: 481px) and (max-width: 1279px)
 {
-.article{
- display:flex;
-  justify-content: space-around;
+.article {
   background-color: #00ffff;
   margin-bottom: 11px;
+  overflow: auto; 
 }
 
-.article-p{
-	overflow: auto;
-	width:50%;
-	order:3;
-	padding-left: 10px;
+.article-img {
+  float: left;
+  margin: 5px;
 }
-
-.article-img{
-	order:1;
-	float:left;	
-	margin: 5px;
-}
-
 
 .single-line {
-    white-space: nowrap;
+  white-space: nowrap;
 }
+
+
 
 #article-footer{
 	float:right;
@@ -712,27 +715,27 @@ overflow:auto;
 @media screen and (min-width: 1280px)
 {
 	
-	.article
-	{
-    background-color:#00ffff;		
-	display:flex;
-	justify-content: space-around;
-	width: 70%;
-	margin-bottom: 10px;
+.article {
+    background-color: #00ffff;
+    width: 70%;
+    margin-bottom: 10px;
+    overflow: auto; 
 }
 
 .single-line {
     white-space: nowrap;
 }
-	
-	
-	.article-p{
-	width:50%;
-	}
-	.article-img
-	{
-	float:right;
-	}
+
+.article-p {
+    width: 50%;
+    float: left;
+    overflow: auto;
+}
+
+.article-img {
+    float: right;
+}
+
 
 	#navbar
 	{
