@@ -430,11 +430,9 @@ display: none;
 	margin-left: 10px;
 }
 
-
-
-	#contact-side{
+#contact-side{
 		background-color:#f49ac2;
-	}
+}
 	
 #contact-img1{
 		width:50%;
@@ -456,21 +454,29 @@ display: none;
 
 
 @media screen and (min-width: 481px) and (max-width: 1279px)
-{
+{	
+.main {
+        display: flex; 
+        flex-direction: column; 
+    }
 	
-.side{
-		flex-grow: 1;
-		flex-shrink: 1;
-		order: -1;
-		height: 20em ;
+.side {
+        height: auto; 
+        order: 0; 
+		margin-bottom: 5px;
+    }
+	
+#tablet-video {
 		width: 100%;
-	background-color: #f49ac2;
-}	
-
+		order: 1;
+		height: 20em;
+	}
+	
 .index-section {
-    display: flex;
-    flex-direction: column; 
-	 flex-direction: column-reverse;
+	order: 2; 
+    padding: 0 10px; 
+    display: flex; 
+	flex-direction: column-reverse;
 }
 
 .article {
@@ -478,10 +484,6 @@ display: none;
   flex-direction: column; 
   background-color: #00ffff;
   margin-bottom: 11px;
-}
-
-.article-header {
-  white-space: nowrap;
 }
 
 .article-p {
@@ -492,6 +494,15 @@ display: none;
 .article-img {
   margin: 5px;
   float: left;
+}
+
+.side{
+		flex-grow: 1;
+		flex-shrink: 1;
+		order: -1;
+		height: 20em ;
+		width: 100%;
+	background-color: #f49ac2;
 }
 
 #article-footer{
@@ -525,12 +536,6 @@ nav > ul > li > a
 	#main{
 		display: flex;
 		flex-direction: column;
-	}
-	
-	#tablet-video {
-		width: 100%;
-		order: -2;
-		height: 20em;
 	}
 	
 	#section
@@ -738,11 +743,36 @@ background-color:#e6ffe6;
 		height: 50em;		
 }
 
+.main {
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+
+.index-section {
+        flex: 2;
+        padding: 0 10px;
+    }
+
+.side
+	{
+		flex: 1; 
+        height: auto; 
+        order: 0;
+		flex-grow: 1;
+		flex-shrink: 1;	
+		font-size:22px;
+		background-color:#f49ac2;		
+		overflow: hidden;
+		padding: 1rem;	
+        float: right;			
+}
+	
 .article {
 	display: flex;
     background-color: #00ffff;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -750,33 +780,17 @@ background-color:#e6ffe6;
     white-space: nowrap;
 }
 
-.article-content {
-    width: 50%;
-    overflow: auto;
-}
-
 .article-img {
     float: right;
 }
-
-.side
-	{
-		flex-grow: 1;
-		flex-shrink: 1;	
-		width:22%;
-		font-size:22px;
-		background-color:#f49ac2;		
-		overflow: hidden;
-		padding: 1rem;	
-        float: right;		
-	}
-	.side-list{
+	
+.side-list{
 	display: inline;}
 	
 
-	#tablet-video {
+#tablet-video {
 	     display:none;
-    }
+}
 
 #footer{
 	float: left;
