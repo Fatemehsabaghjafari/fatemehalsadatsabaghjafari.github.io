@@ -82,7 +82,65 @@ article a:hover{
 		font-size:15px;
 		color:#ffffff;
 }	
-	
+
+.promotion-body{
+	font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+#about,
+#products,
+#reviews,
+aside {
+    padding: 50px 20px;
+}
+
+#about h2,
+#products h2,
+#reviews h2,
+aside h2 {
+    font-size: 36px;
+}
+
+#about p,
+#products figcaption,
+#reviews figcaption,
+aside li {
+    font-size: 18px;
+}
+
+#products figure,
+#reviews figure {
+    margin: 20px 0;
+}
+
+#products img {
+    max-width: 100%;
+    height: auto;
+}
+
+#reviews blockquote {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#reviews figcaption {
+    font-size: 16px;
+    font-style: italic;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 #section-table{
 	overflow-x:auto;
 }
@@ -446,6 +504,44 @@ display: none;
 		width:50%;
 }
 	
+#about,
+    #products,
+    #reviews,
+    aside {
+        padding: 20px;
+    }
+
+    #about h2,
+    #products h2,
+    #reviews h2,
+    aside h2 {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    #about p,
+    #products figcaption,
+    #reviews figcaption,
+    aside li {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    #footer,
+    #cookies {
+        padding: 10px;
+    }
+
+    #footer {
+        order: 5;
+        flex-grow: 0;
+    }
+
+    #cookies {
+        order: 4;
+    }
+
+    #p-cookie {
+        font-size: 0.75rem; /* 12px */
+    }
 }
 
 
@@ -725,7 +821,27 @@ background-color:#e6ffe6;
 	}
 	
 	
-	
+	#about,
+    #products,
+    #reviews,
+    aside {
+        padding: 30px;
+    }
+
+    #about h2,
+    #products h2,
+    #reviews h2,
+    aside h2 {
+        font-size: 2rem; /* 32px */
+    }
+
+    #about p,
+    #products figcaption,
+    #reviews figcaption,
+    aside li {
+        font-size: 1rem; /* 16px */
+    }
+
 }
 
 
@@ -738,6 +854,7 @@ background-color:#e6ffe6;
 /* PC */
 @media screen and (min-width: 1280px)
 {
+
 #pc-video {
 		width: 100%;
 		height: 50em;		
@@ -782,6 +899,7 @@ background-color:#e6ffe6;
 
 .article-img {
     float: right;
+	margin-left: 10px;
 }
 	
 .side-list{
@@ -834,6 +952,10 @@ background-color:#e6ffe6;
 	}
 
 
+    blockquote {
+        border-left: 4px solid #FFC72B; /* Pantone 123C */
+        padding-left: 10px;
+    }
 
 .grid-container{
 		font-family: 'Quicksands' , sans-serif;
@@ -1020,4 +1142,11 @@ background-color: #ccf5ff;
 		grid-row-start:3;
 		width:50%;
 	}
+	
+	.promotion-product1{
+		max-width: 40%; 
+		height: auto; 
+	}
 }
+
+

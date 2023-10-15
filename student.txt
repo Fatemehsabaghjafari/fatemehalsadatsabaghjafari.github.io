@@ -1,5 +1,5 @@
 student name : Fateme sabagh
 student number : 697797
-student class : IT1B
-GitHub website: https://github.com/Fatemehsabaghjafari
-GitHub repository: https://github.com/Fatemehsabaghjafari/fatemehalsadatsabaghjafari.github.io
+student class : IT2A
+GitHub website: 
+GitHub repository: 
