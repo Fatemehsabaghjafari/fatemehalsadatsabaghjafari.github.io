@@ -24,38 +24,6 @@
 
 }
 
-nav ul li{
-	margin: 5px;
-	padding:5px;
-	border: 1px
-	border-color:#aaaa55;
-	border-style:double;
-	border-width: 1px;
-	background-color:#800080;
-	color:#800080;
-	border-radius: 5px;
-	
-}
-
-nav > ul {
-  background-color: #ffccff;
-}
-
-nav ul li + li {
-  color: #ff4500;
-}
-
-nav ul li a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #007bff;
-}
-
-article a:hover{
-	color: #ff4500;
-    text-decoration: none;
-}
-
 #footer{
 	width:70%;
 	float: left;
@@ -131,16 +99,6 @@ aside li {
     font-style: italic;
 }
 
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
 #section-table{
 	overflow-x:auto;
 }
@@ -153,6 +111,53 @@ aside li {
 	margin-right:2em; 
 }
 
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+nav > ul {
+  background-color: #ffccff;
+}
+
+nav ul li + li {
+  color: #ff4500;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:active {
+    color: #ff4500;
+}
+
+article a:hover{
+	color: #ff4500;
+    text-decoration: none;
+}
+
+nav ul li{
+	margin: 5px;
+	padding:5px;
+	border: 1px;
+	border-color:#aaaa55;
+	border-style:double;
+	border-width: 1px;
+	background-color:#800080;
+	color:#800080;
+	border-radius: 5px;
+	
+}
+
 th,
 td{
 	text-align:left;
@@ -163,7 +168,11 @@ td{
 }
 
 tbody tr:nth-child(even){
-background-color:#d1bea8;
+background-color:#CFF;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFF;
 }
 
 tbody tr:hover{
@@ -1147,6 +1156,20 @@ background-color: #ccf5ff;
 		max-width: 40%; 
 		height: auto; 
 	}
+	
+	.FAQ-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+	position: relative;
+	}
+
+	.FAQ-section {
+    flex-grow: 1;	
+	}
+
+	
 }
 
 
