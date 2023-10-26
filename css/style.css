@@ -10,8 +10,7 @@
 	font-family: 'Notable', sans-serif;
 	line-height: 1.5; 
 	text-transform: uppercase;
-	color: #87CEEB; /* Fallback color if CMYK is not supported */
-	color: cmyk(63%, 11%, 0%, 8%);
+	color:  #ff1aff; 
 }
 
 #title{
@@ -27,7 +26,7 @@
 #footer{
 	width:70%;
 	float: left;
-	background-color: #f08080;
+	background-color: #d9b3ff;
 	order:4;
 	height: 4em;
 	clear: both;
@@ -35,7 +34,7 @@
 
 #cookies{	
 	width: 30%;
-	background-color: #ffaa00;
+	background-color: #9933ff;
 	float:right;
     order: 5;
 	opacity:0.5;
@@ -896,13 +895,23 @@ background-color:#e6ffe6;
 	
 .article {
 	display: flex;
-    background-color: #00ffff;
+	flex-direction: column;
+  align-items: center;
+  text-align: center;
+    background-color: #ffccff;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 10px;
 }
 
+.article-p {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the paragraph */
+}
+
+
 .single-line {
+	font-size: 20px;
     white-space: nowrap;
 }
 
@@ -921,7 +930,6 @@ background-color:#e6ffe6;
 
 #footer{
 	float: left;
-	background-color: #f08080;
 	width: 70%;
 	order:3;
 	height: 5em;
@@ -931,7 +939,6 @@ background-color:#e6ffe6;
 #cookies
 {
 	width: 30%;
-	background-color: orange;
 	font-size:20px;
 	float:right;
     order: 4;	
@@ -940,8 +947,7 @@ background-color:#e6ffe6;
 
 	#navbar
 	{
-	width:100%;
-	
+	width:100%;	
 	background-color:#ff1493;
 	}
 	
@@ -950,14 +956,16 @@ background-color:#e6ffe6;
 	padding-top:1em;
 	padding-bottom:1em;
 	}
+	
 	nav > ul > li {
 	display:inline;
 	padding-left: 1em;
 	padding-right: 1em;
 	}
+	
 	nav > ul > li > a
 	{
-	color:white;
+	color:#ffffff;
 	}
 
 
@@ -983,10 +991,16 @@ background-color:#e6ffe6;
 		grid-column-gap: 5px;
 }
 
-.grid-item{
-	font-size:15px;
-	display: flex;
+.grid-item {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column; 
     padding: 5px;
+}
+
+.grid-item-head {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
 }
 
 .scroll-box{
@@ -1032,7 +1046,7 @@ overflow:auto;
 
 #flex-side{
 		height:auto;
-		background-color:pink;
+		background-color: #df9fbf;
 		display:grid;
 		grid-template-columns: 30% 30% 30%;
 		grid-template-rows: 100%;
@@ -1061,17 +1075,16 @@ overflow:auto;
 	border:2px solid #000000;
 	padding:5px;
 }
-	#section-table{
+
+#section-table{
 		width:70%;
 	}
-	#price-side{
+	
+#price-side{
 		float: right;
 		width:30%;
-	}
-	
-	
-	
-	
+}
+		
 .main-contact{
 		display: flex;
 		width:100%;
