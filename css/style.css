@@ -875,9 +875,14 @@ background-color:#e6ffe6;
     }
 
 .index-section {
+	background-color: #ffe6ff;
         flex: 2;
         padding: 0 10px;
     }
+
+.index-section-heading {
+  text-align: center;
+}
 
 .side
 	{
@@ -905,7 +910,7 @@ background-color:#e6ffe6;
 }
 
 .article-p {
-  max-width: 600px; /* Adjust the maximum width as needed */
+  max-width: 600px; 
   margin: 0 auto; /* Center the paragraph */
 }
 
@@ -970,7 +975,7 @@ background-color:#e6ffe6;
 
 
     blockquote {
-        border-left: 4px solid #FFC72B; /* Pantone 123C */
+        border-left: 4px solid #FFC72B; 
         padding-left: 10px;
     }
 
